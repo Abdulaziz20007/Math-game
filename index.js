@@ -23,7 +23,7 @@ function checkgame() {
             localStorage.setItem('green', green1);
             console.log(localStorage.getItem('green'));
         }
-        document.getElementById('answer').innerHTML = "Javob to'g'ri"
+        document.getElementById('answer').innerHTML = "The answer is correct"
     }
     else {
     if(localStorage.getItem('red') == null) {
@@ -35,7 +35,7 @@ function checkgame() {
         localStorage.setItem('red', red1);
         console.log(localStorage.getItem('red'));
     }
-        document.getElementById('answer').innerHTML = "Javob noto'g'ri.<br> To'g'ri javob "+n3+" edi"
+        document.getElementById('answer').innerHTML = "The answer is incorrect.<br> The correct answer was "+n3
     }
     n1 = Math.floor(Math.random() * 100) + 1,
     n2 = Math.floor(Math.random() * 100) + 1;
