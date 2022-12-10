@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./fav.png" type="image/x-icon">
+    <title>Math game</title>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="answer">
+                <h3 id="answer"> <br> </h3>
+            </div>
+            <div class="game">
+                <div class="question">
+                    <input type="text" name="" id="n1" disabled value="0">
+                    <h1>+</h1>
+                    <input type="text" name="" id="n2" disabled value="0">
+                </div>
+                <div class="myanswer">
+                    <input id="myanswer" maxlength="3" class="input" type="text">
+                </div>
+            </div>
+            <button onclick="checkgame()">Check</button>
+        </div>
+    </div>
+    <footer>
+        <div id="green"></div>
+        <div id="red"></div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
